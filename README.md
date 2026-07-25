@@ -62,6 +62,37 @@ The rule is simple: media files are generated outputs, not source files. The
 repo should not ship pre-rendered `media/*.png`, `media/*.gif`, or provenance
 JSON as evidence.
 
+## Embedded Preview Gallery
+
+These curated previews are committed under `assets/preview/` so users can see
+expected outputs directly in GitHub before running the full pipeline.
+
+### Smoke Gallery Preview
+
+| Nightlights | S2 Workflow | Physical Layers |
+| --- | --- | --- |
+| ![Smoke nightlights](assets/preview/smoke_nightlights_prd.png) | ![Smoke s2 workflow](assets/preview/smoke_s2_workflow.gif) | ![Smoke physical layers](assets/preview/smoke_physical_layers.png) |
+
+| Resolution Compare | SAR vs Optical | Terrain 3D |
+| --- | --- | --- |
+| ![Smoke resolution compare](assets/preview/smoke_resolution_compare.png) | ![Smoke sar optical](assets/preview/smoke_sar_optical.png) | ![Smoke terrain 3d](assets/preview/smoke_terrain_3d.png) |
+
+| Terrain 3D Views |
+| --- |
+| ![Smoke terrain 3d views](assets/preview/smoke_terrain_3d_views.png) |
+
+### Full Gallery Preview
+
+| Desert Greening | Lop Nur Ponds | Hongjiannao Lake |
+| --- | --- | --- |
+| ![Full desert greening](assets/preview/full_desert_greening.gif) | ![Full lopnur ponds](assets/preview/full_lopnur_ponds.gif) | ![Full hongjiannao lake](assets/preview/full_hongjiannao_lake.gif) |
+
+### Intermediate Figures Preview
+
+| S2 RGB | S2 NDWI | S2 Water Mask |
+| --- | --- | --- |
+| ![Intermediate s2 rgb](assets/preview/intermediate_s2_rgb.png) | ![Intermediate s2 ndwi](assets/preview/intermediate_s2_ndwi.png) | ![Intermediate s2 water](assets/preview/intermediate_s2_water.png) |
+
 Original evidence lives in the recorded source metadata:
 
 ```text

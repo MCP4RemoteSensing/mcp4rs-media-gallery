@@ -1,0 +1,18 @@
+include:
+  - README.md
+  - app.py
+  - requirements.txt
+  - source_queries.py
+  - render_scene.py
+  - render_desert.py
+  - render_lake.py
+  - scripts/export_media_sources.py
+  - scripts/generate_media_gallery.py
+  - scripts/check_logo.py
+  - scripts/update_preview_assets.py
+  - examples/*.py
+  - docs/*.md
+  - assets/preview/**
+  - media/.gitkeep
+  - figures/.gitkeep
+  - generated/provenance/.gitkeep

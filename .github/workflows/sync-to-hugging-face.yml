@@ -4,12 +4,30 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      hf_space_repo_id:
+        description: Hugging Face Space repo ID
+        required: true
+        default: zlysunshine/mcp4rs-media-gallery
+
+permissions:
+  contents: read
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_SPACE: ${{ github.event.inputs.hf_space_repo_id || 'zlysunshine/mcp4rs-media-gallery' }}
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Hugging Face CLI
+        run: python -m pip install --upgrade "huggingface_hub[cli]"
 
       - name: Prepare Hugging Face Space files
         run: |
@@ -40,21 +58,28 @@ jobs:
           touch hf_space/figures/.gitkeep
           touch hf_space/generated/provenance/.gitkeep
 
-      - name: Push selected files to Hugging Face
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_SPACE: zlysunshine/mcp4rs-media-gallery
+      - name: Validate selected Space files
+        run: |
+          test -f hf_space/README.md
+          test -f hf_space/app.py
+          test -f hf_space/requirements.txt
+          python -m py_compile \
+            hf_space/app.py \
+            hf_space/source_queries.py \
+            hf_space/render_scene.py \
+            hf_space/render_desert.py \
+            hf_space/render_lake.py \
+            hf_space/scripts/export_media_sources.py \
+            hf_space/scripts/generate_media_gallery.py
+
+      - name: Upload selected files to Hugging Face
         run: |
           if [ -z "$HF_TOKEN" ]; then
-            echo "HF_TOKEN secret is missing."
+            echo "HF_TOKEN secret is missing. Add it under Settings -> Secrets and variables -> Actions."
             exit 1
           fi
-          cd hf_space
-          git init
-          git checkout -b main
-          git config user.email "actions@github.com"
-          git config user.name "github-actions"
-          git add .
-          git commit -m "Sync selected Space files from GitHub"
-          git remote add hf "https://user:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}"
-          git push hf main --force
+
+          huggingface-cli upload "$HF_SPACE" hf_space . \
+            --repo-type space \
+            --commit-message "Sync Space from GitHub ${GITHUB_SHA}" \
+            --token "$HF_TOKEN"

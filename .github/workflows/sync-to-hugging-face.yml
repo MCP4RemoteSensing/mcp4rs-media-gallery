@@ -1,0 +1,60 @@
+name: Sync to Hugging Face Space
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare Hugging Face Space files
+        run: |
+          mkdir -p hf_space
+
+          # Sync only the files required to run the Hugging Face Space.
+          # This intentionally avoids local envs, caches, notebooks, and generated media.
+          cp README.md hf_space/
+          cp app.py hf_space/
+          cp requirements.txt hf_space/
+          cp source_queries.py hf_space/
+          cp render_scene.py hf_space/
+          cp render_desert.py hf_space/
+          cp render_lake.py hf_space/
+
+          mkdir -p hf_space/scripts hf_space/examples hf_space/docs hf_space/assets/preview
+          cp scripts/export_media_sources.py hf_space/scripts/
+          cp scripts/generate_media_gallery.py hf_space/scripts/
+          cp scripts/check_logo.py hf_space/scripts/
+          cp scripts/update_preview_assets.py hf_space/scripts/
+          cp examples/*.py hf_space/examples/
+          cp docs/*.md hf_space/docs/
+          cp -r assets/preview/. hf_space/assets/preview/
+
+          # Keep writable output folders present on the Space without syncing generated outputs.
+          mkdir -p hf_space/media hf_space/figures hf_space/generated/provenance
+          touch hf_space/media/.gitkeep
+          touch hf_space/figures/.gitkeep
+          touch hf_space/generated/provenance/.gitkeep
+
+      - name: Push selected files to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: zlysunshine/mcp4rs-media-gallery
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "HF_TOKEN secret is missing."
+            exit 1
+          fi
+          cd hf_space
+          git init
+          git checkout -b main
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git add .
+          git commit -m "Sync selected Space files from GitHub"
+          git remote add hf "https://user:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}"
+          git push hf main --force

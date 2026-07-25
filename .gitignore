@@ -1,0 +1,45 @@
+# Python environments and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reproducibility outputs
+media/*.png
+media/*.jpg
+media/*.jpeg
+media/*.gif
+media/*.mmd
+figures/*.png
+figures/*.jpg
+figures/*.jpeg
+generated/provenance/*.json
+generated/logo_preview.png
+
+# Keep output folders available in fresh clones
+!figures/.gitkeep
+!generated/provenance/.gitkeep
+!media/.gitkeep
+
+# Curated preview assets are intentionally committed for README/HF previews
+!assets/
+!assets/preview/
+!assets/preview/.gitkeep
+!assets/preview/*.png
+!assets/preview/*.gif
+
+# Local machine noise
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -19,6 +19,8 @@ jobs:
     env:
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       HF_SPACE: ${{ github.event.inputs.hf_space_repo_id || 'zlysunshine/mcp4rs-media-gallery' }}
+      PYTHONDONTWRITEBYTECODE: "1"
+
     steps:
       - uses: actions/checkout@v4
 
@@ -27,14 +29,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install Hugging Face CLI
-        run: python -m pip install --upgrade "huggingface_hub[cli]"
+        run: python -m pip install --upgrade huggingface_hub
 
       - name: Prepare Hugging Face Space files
         run: |
           mkdir -p hf_space
 
-          # Sync only the files required to run the Hugging Face Space.
-          # This intentionally avoids local envs, caches, notebooks, and generated media.
+          cp .huggingface.yml hf_space/
           cp README.md hf_space/
           cp app.py hf_space/
           cp requirements.txt hf_space/
@@ -44,15 +45,16 @@ jobs:
           cp render_lake.py hf_space/
 
           mkdir -p hf_space/scripts hf_space/examples hf_space/docs hf_space/assets/preview
+
           cp scripts/export_media_sources.py hf_space/scripts/
           cp scripts/generate_media_gallery.py hf_space/scripts/
           cp scripts/check_logo.py hf_space/scripts/
           cp scripts/update_preview_assets.py hf_space/scripts/
+
           cp examples/*.py hf_space/examples/
           cp docs/*.md hf_space/docs/
           cp -r assets/preview/. hf_space/assets/preview/
 
-          # Keep writable output folders present on the Space without syncing generated outputs.
           mkdir -p hf_space/media hf_space/figures hf_space/generated/provenance
           touch hf_space/media/.gitkeep
           touch hf_space/figures/.gitkeep
@@ -61,8 +63,10 @@ jobs:
       - name: Validate selected Space files
         run: |
           test -f hf_space/README.md
+          test -f hf_space/.huggingface.yml
           test -f hf_space/app.py
           test -f hf_space/requirements.txt
+
           python -m py_compile \
             hf_space/app.py \
             hf_space/source_queries.py \
@@ -79,7 +83,7 @@ jobs:
             exit 1
           fi
 
-          huggingface-cli upload "$HF_SPACE" hf_space . \
+          hf upload "$HF_SPACE" hf_space . \
             --repo-type space \
             --commit-message "Sync Space from GitHub ${GITHUB_SHA}" \
             --token "$HF_TOKEN"

@@ -1,0 +1,406 @@
+{
+  "cloud_threshold": 15,
+  "collection": "sentinel-2-l2a",
+  "datetime_range": "2025-01-01/2026-06-30",
+  "endpoint": "https://earth-search.aws.element84.com/v1/",
+  "items": [
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250102_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250102_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250102_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250102_0_L2A/B04.tif"
+      },
+      "cloud_cover": 3.750495,
+      "datetime": "2025-01-02 03:37:10.570000+00:00",
+      "day": "2025-01-02",
+      "id": "S2A_49SDD_20250102_0_L2A",
+      "water_fraction_percent": 34.97281804733728
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250112_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250112_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250112_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/1/S2A_49SDD_20250112_0_L2A/B04.tif"
+      },
+      "cloud_cover": 1.674291,
+      "datetime": "2025-01-12 03:37:07.618000+00:00",
+      "day": "2025-01-12",
+      "id": "S2A_49SDD_20250112_0_L2A",
+      "water_fraction_percent": 33.712278106508876
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/2/S2B_49SDD_20250216_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/2/S2B_49SDD_20250216_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/2/S2B_49SDD_20250216_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/2/S2B_49SDD_20250216_0_L2A/B04.tif"
+      },
+      "cloud_cover": 14.966162,
+      "datetime": "2025-02-16 03:37:15.165000+00:00",
+      "day": "2025-02-16",
+      "id": "S2B_49SDD_20250216_0_L2A",
+      "water_fraction_percent": 34.96708579881657
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2B_49SDD_20250308_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2B_49SDD_20250308_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2B_49SDD_20250308_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2B_49SDD_20250308_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.229913,
+      "datetime": "2025-03-08 03:37:13.499000+00:00",
+      "day": "2025-03-08",
+      "id": "S2B_49SDD_20250308_0_L2A",
+      "water_fraction_percent": 34.906527366863905
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2C_49SDD_20250323_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2C_49SDD_20250323_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2C_49SDD_20250323_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/3/S2C_49SDD_20250323_0_L2A/B04.tif"
+      },
+      "cloud_cover": 4.436103,
+      "datetime": "2025-03-23 03:37:33.328000+00:00",
+      "day": "2025-03-23",
+      "id": "S2C_49SDD_20250323_0_L2A",
+      "water_fraction_percent": 34.265625
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/4/S2B_49SDD_20250407_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/4/S2B_49SDD_20250407_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/4/S2B_49SDD_20250407_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/4/S2B_49SDD_20250407_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.035531,
+      "datetime": "2025-04-07 03:37:11.595000+00:00",
+      "day": "2025-04-07",
+      "id": "S2B_49SDD_20250407_0_L2A",
+      "water_fraction_percent": 34.65208949704142
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/5/S2A_49SDD_20250524_1_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/5/S2A_49SDD_20250524_1_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/5/S2A_49SDD_20250524_1_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/5/S2A_49SDD_20250524_1_L2A/B04.tif"
+      },
+      "cloud_cover": 13.517606,
+      "datetime": "2025-05-24 03:37:27.248000+00:00",
+      "day": "2025-05-24",
+      "id": "S2A_49SDD_20250524_1_L2A",
+      "water_fraction_percent": 34.43426405325444
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250606_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250606_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250606_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250606_0_L2A/B04.tif"
+      },
+      "cloud_cover": 6.630967,
+      "datetime": "2025-06-06 03:37:10.500000+00:00",
+      "day": "2025-06-06",
+      "id": "S2B_49SDD_20250606_0_L2A",
+      "water_fraction_percent": 34.30963387573964
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250616_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250616_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250616_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/6/S2B_49SDD_20250616_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.923603,
+      "datetime": "2025-06-16 03:37:09.871000+00:00",
+      "day": "2025-06-16",
+      "id": "S2B_49SDD_20250616_0_L2A",
+      "water_fraction_percent": 34.13100961538461
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/7/S2B_49SDD_20250716_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/7/S2B_49SDD_20250716_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/7/S2B_49SDD_20250716_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/7/S2B_49SDD_20250716_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.187299,
+      "datetime": "2025-07-16 03:37:13.984000+00:00",
+      "day": "2025-07-16",
+      "id": "S2B_49SDD_20250716_0_L2A",
+      "water_fraction_percent": 33.87860576923077
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250805_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250805_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250805_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250805_0_L2A/B04.tif"
+      },
+      "cloud_cover": 7.530493,
+      "datetime": "2025-08-05 03:37:11.641000+00:00",
+      "day": "2025-08-05",
+      "id": "S2B_49SDD_20250805_0_L2A",
+      "water_fraction_percent": 35.23816568047337
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250825_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250825_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250825_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/8/S2B_49SDD_20250825_0_L2A/B04.tif"
+      },
+      "cloud_cover": 12.88587,
+      "datetime": "2025-08-25 03:37:12.500000+00:00",
+      "day": "2025-08-25",
+      "id": "S2B_49SDD_20250825_0_L2A",
+      "water_fraction_percent": 35.52625739644971
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2A_49SDD_20250901_1_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2A_49SDD_20250901_1_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2A_49SDD_20250901_1_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2A_49SDD_20250901_1_L2A/B04.tif"
+      },
+      "cloud_cover": 0.361323,
+      "datetime": "2025-09-01 03:37:24.941000+00:00",
+      "day": "2025-09-01",
+      "id": "S2A_49SDD_20250901_1_L2A",
+      "water_fraction_percent": 35.65393860946745
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250914_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250914_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250914_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250914_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.000753,
+      "datetime": "2025-09-14 03:37:08.950000+00:00",
+      "day": "2025-09-14",
+      "id": "S2B_49SDD_20250914_0_L2A",
+      "water_fraction_percent": 35.73206360946746
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250924_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250924_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250924_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/9/S2B_49SDD_20250924_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.109452,
+      "datetime": "2025-09-24 03:37:10.124000+00:00",
+      "day": "2025-09-24",
+      "id": "S2B_49SDD_20250924_0_L2A",
+      "water_fraction_percent": 35.76109467455622
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2C_49SDD_20251019_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2C_49SDD_20251019_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2C_49SDD_20251019_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2C_49SDD_20251019_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.050091,
+      "datetime": "2025-10-19 03:37:21.935000+00:00",
+      "day": "2025-10-19",
+      "id": "S2C_49SDD_20251019_0_L2A",
+      "water_fraction_percent": 36.08099112426035
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2A_49SDD_20251031_1_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2A_49SDD_20251031_1_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2A_49SDD_20251031_1_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/10/S2A_49SDD_20251031_1_L2A/B04.tif"
+      },
+      "cloud_cover": 0.025537,
+      "datetime": "2025-10-31 03:37:27.261000+00:00",
+      "day": "2025-10-31",
+      "id": "S2A_49SDD_20251031_1_L2A",
+      "water_fraction_percent": 36.08931213017751
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251103_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251103_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251103_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251103_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.004881,
+      "datetime": "2025-11-03 03:37:07.597000+00:00",
+      "day": "2025-11-03",
+      "id": "S2B_49SDD_20251103_0_L2A",
+      "water_fraction_percent": 36.07387204142012
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251113_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251113_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251113_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251113_0_L2A/B04.tif"
+      },
+      "cloud_cover": 7.387444,
+      "datetime": "2025-11-13 03:37:06.962000+00:00",
+      "day": "2025-11-13",
+      "id": "S2B_49SDD_20251113_0_L2A",
+      "water_fraction_percent": 36.66244452662722
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251123_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251123_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251123_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/11/S2B_49SDD_20251123_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.000431,
+      "datetime": "2025-11-23 03:37:04.744000+00:00",
+      "day": "2025-11-23",
+      "id": "S2B_49SDD_20251123_0_L2A",
+      "water_fraction_percent": 36.44008875739645
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251203_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251203_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251203_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251203_0_L2A/B04.tif"
+      },
+      "cloud_cover": 3.733617,
+      "datetime": "2025-12-03 03:37:05.826000+00:00",
+      "day": "2025-12-03",
+      "id": "S2B_49SDD_20251203_0_L2A",
+      "water_fraction_percent": 36.56971153846154
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251213_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251213_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251213_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2B_49SDD_20251213_0_L2A/B04.tif"
+      },
+      "cloud_cover": 11.264575,
+      "datetime": "2025-12-13 03:37:08.432000+00:00",
+      "day": "2025-12-13",
+      "id": "S2B_49SDD_20251213_0_L2A",
+      "water_fraction_percent": 10.952847633136095
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2C_49SDD_20251218_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2C_49SDD_20251218_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2C_49SDD_20251218_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2C_49SDD_20251218_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.075318,
+      "datetime": "2025-12-18 03:37:18.526000+00:00",
+      "day": "2025-12-18",
+      "id": "S2C_49SDD_20251218_0_L2A",
+      "water_fraction_percent": 21.596523668639055
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2A_49SDD_20251230_1_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2A_49SDD_20251230_1_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2A_49SDD_20251230_1_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2025/12/S2A_49SDD_20251230_1_L2A/B04.tif"
+      },
+      "cloud_cover": 5.693992,
+      "datetime": "2025-12-30 03:37:31.678000+00:00",
+      "day": "2025-12-30",
+      "id": "S2A_49SDD_20251230_1_L2A",
+      "water_fraction_percent": 36.82193047337278
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/1/S2B_49SDD_20260122_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/1/S2B_49SDD_20260122_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/1/S2B_49SDD_20260122_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/1/S2B_49SDD_20260122_0_L2A/B04.tif"
+      },
+      "cloud_cover": 1.433864,
+      "datetime": "2026-01-22 03:37:06.712000+00:00",
+      "day": "2026-01-22",
+      "id": "S2B_49SDD_20260122_0_L2A",
+      "water_fraction_percent": 36.961723372781066
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260407_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260407_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260407_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260407_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.091493,
+      "datetime": "2026-04-07 03:37:08.961000+00:00",
+      "day": "2026-04-07",
+      "id": "S2C_49SDD_20260407_0_L2A",
+      "water_fraction_percent": 36.96523668639053
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260427_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260427_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260427_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/4/S2C_49SDD_20260427_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.046436,
+      "datetime": "2026-04-27 03:37:11.367000+00:00",
+      "day": "2026-04-27",
+      "id": "S2C_49SDD_20260427_0_L2A",
+      "water_fraction_percent": 36.778198964497044
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/5/S2C_49SDD_20260507_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/5/S2C_49SDD_20260507_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/5/S2C_49SDD_20260507_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/5/S2C_49SDD_20260507_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.028032,
+      "datetime": "2026-05-07 03:37:11.086000+00:00",
+      "day": "2026-05-07",
+      "id": "S2C_49SDD_20260507_0_L2A",
+      "water_fraction_percent": 36.7603550295858
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2B_49SDD_20260601_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2B_49SDD_20260601_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2B_49SDD_20260601_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2B_49SDD_20260601_0_L2A/B04.tif"
+      },
+      "cloud_cover": 0.008099,
+      "datetime": "2026-06-01 03:37:06.204000+00:00",
+      "day": "2026-06-01",
+      "id": "S2B_49SDD_20260601_0_L2A",
+      "water_fraction_percent": 36.600591715976336
+    },
+    {
+      "assets": {
+        "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2C_49SDD_20260616_0_L2A/B02.tif",
+        "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2C_49SDD_20260616_0_L2A/B03.tif",
+        "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2C_49SDD_20260616_0_L2A/B08.tif",
+        "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/S/DD/2026/6/S2C_49SDD_20260616_0_L2A/B04.tif"
+      },
+      "cloud_cover": 9.398486,
+      "datetime": "2026-06-16 03:37:10.366000+00:00",
+      "day": "2026-06-16",
+      "id": "S2C_49SDD_20260616_0_L2A",
+      "water_fraction_percent": 36.673261834319526
+    }
+  ],
+  "search_pad_deg": 0.14,
+  "target_key": "hongjiannao",
+  "target_lon_lat": [
+    109.88,
+    39.07
+  ],
+  "target_name": "Hongjiannao Lake, Mu Us desert",
+  "tile": "49SDD"
+}

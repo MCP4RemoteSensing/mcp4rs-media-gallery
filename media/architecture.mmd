@@ -1,0 +1,16 @@
+flowchart TD
+    mcp["Main MCP4RS server tools"]
+    mirror["source_queries.py mirror"]
+    sources["Open-data APIs and catalogs"]
+    provenance["Provenance JSON"]
+    renderers["Python render scripts"]
+    gallery["Generated media gallery"]
+    skill["Future Agent Skill"]
+
+    mcp -.->|same source-discovery contract| mirror
+    mirror -->|query URLs, STAC items, WMS images| sources
+    sources -->|source asset links and scene IDs| provenance
+    provenance -->|auditable inputs| renderers
+    renderers -->|processed PNG/GIF outputs| gallery
+    skill -.->|later calls MCP tools| mcp
+    skill -.->|later orchestrates rendering| renderers

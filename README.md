@@ -21,6 +21,17 @@ The purpose is narrower:
 open-data source query -> provenance JSON -> Python rendering -> media gallery
 ```
 
+## Published Dataset Outputs
+
+Generated outputs are published on Hugging Face Datasets:
+
+https://huggingface.co/datasets/MCP4RemoteSensing/mcp4rs-media-gallery-outputs
+
+For this release, the current generated outputs are also exported to this
+GitHub repository because file sizes are within practical GitHub limits.
+Hugging Face remains the primary distribution location for reusable output
+artifacts.
+
 ## Preview Before Running
 
 Some steps take time because they query open-data catalogs, download remote
@@ -58,9 +69,10 @@ Sample exported provenance record:
 }
 ```
 
-The rule is simple: media files are generated outputs, not source files. The
-repo should not ship pre-rendered `media/*.png`, `media/*.gif`, or provenance
-JSON as evidence.
+The rule is simple: media files are generated outputs, not source files.
+Normally, this repo does not ship routine run outputs in `media/`, `figures/`,
+or `generated/provenance/`; however, this release includes a tracked output
+snapshot in GitHub and a corresponding Hugging Face dataset publication.
 
 ## Embedded Preview Gallery
 
@@ -230,9 +242,9 @@ render scripts then turn those assets into human-readable figures and GIFs.
 
 | Folder or file | Meaning | Commit policy |
 | --- | --- | --- |
-| `generated/provenance/*.json` | Source metadata and processing records, including URLs, scene IDs, asset links, and selected frames. | Generated during a run; normally not committed. |
-| `media/*.png`, `media/*.gif` | Final gallery outputs for README, Colab, and Hugging Face display. | Generated during a run; not committed. |
-| `figures/*.png` | Processed intermediate figures and frames used to assemble GIFs or inspect individual cases. | Generated during a run; not committed. |
+| `generated/provenance/*.json` | Source metadata and processing records, including URLs, scene IDs, asset links, and selected frames. | Normally generated-only; snapshot committed for this release and published to Hugging Face dataset. |
+| `media/*.png`, `media/*.gif` | Final gallery outputs for README, Colab, and Hugging Face display. | Normally generated-only; snapshot committed for this release and published to Hugging Face dataset. |
+| `figures/*.png` | Processed intermediate figures and frames used to assemble GIFs or inspect individual cases. | Normally generated-only; snapshot committed for this release and published to Hugging Face dataset. |
 | `media/architecture.mmd` | Mermaid source for the architecture diagram. | Generated during a run; README also includes the Mermaid diagram. |
 
 ## Optional Logo Check Before Push

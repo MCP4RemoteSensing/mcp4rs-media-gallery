@@ -1,0 +1,17 @@
+{
+  "auth": "none (open)",
+  "bbox": [
+    113.8,
+    22.1,
+    114.5,
+    22.8
+  ],
+  "date": "2023-01-01",
+  "format": "image/png",
+  "image_url": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=VIIRS_SNPP_DayNightBand_ENCC&SRS=EPSG%3A4326&BBOX=113.8%2C22.1%2C114.5%2C22.8&WIDTH=1200&HEIGHT=800&FORMAT=image%2Fpng&TIME=2023-01-01",
+  "layer": "VIIRS_SNPP_DayNightBand_ENCC",
+  "native_gsd_m": 500,
+  "note": "Nighttime / low-light EO; render or download the URL directly.",
+  "provider": "NASA GIBS (VIIRS DNB / Black Marble)",
+  "source": "nightlights"
+}

@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-07-25T19:23:47.513032+00:00",
+  "mcp_tool_records": [
+    {
+      "arguments": {
+        "bbox": [
+          110.1,
+          19.9,
+          110.55,
+          20.12
+        ],
+        "datetime_range": "2025-01-01/2025-06-30",
+        "max_cloud_cover": 10.0,
+        "max_items": 3
+      },
+      "collection": "sentinel-2-l2a",
+      "count": 3,
+      "endpoint": "https://earth-search.aws.element84.com/v1/",
+      "items": [
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B04.tif",
+            "swir16": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B11.tif",
+            "swir22": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/3/S2C_49QDC_20250327_0_L2A/B12.tif"
+          },
+          "cloud_cover": 0.01,
+          "datetime": "2025-03-27 03:22:43.772000+00:00",
+          "gsd_m": null,
+          "id": "S2C_49QDC_20250327_0_L2A"
+        },
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B04.tif",
+            "swir16": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B11.tif",
+            "swir22": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2A_49QDC_20250106_0_L2A/B12.tif"
+          },
+          "cloud_cover": 0.02,
+          "datetime": "2025-01-06 03:22:20.058000+00:00",
+          "gsd_m": null,
+          "id": "S2A_49QDC_20250106_0_L2A"
+        },
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B04.tif",
+            "swir16": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B11.tif",
+            "swir22": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/49/Q/DC/2025/1/S2B_49QDC_20250111_0_L2A/B12.tif"
+          },
+          "cloud_cover": 0.15,
+          "datetime": "2025-01-11 03:22:22.366000+00:00",
+          "gsd_m": null,
+          "id": "S2B_49QDC_20250111_0_L2A"
+        }
+      ],
+      "key": "s2_workflow_and_water_fraction",
+      "signing": null,
+      "source": null,
+      "title": null,
+      "tool": "search_open_data"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          113.8,
+          22.1,
+          114.5,
+          22.8
+        ],
+        "date": "2023-01-01",
+        "height": 800,
+        "layer": "VIIRS_SNPP_DayNightBand_ENCC",
+        "width": 1200
+      },
+      "collection": null,
+      "count": null,
+      "endpoint": null,
+      "image_url": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=VIIRS_SNPP_DayNightBand_ENCC&SRS=EPSG%3A4326&BBOX=113.8%2C22.1%2C114.5%2C22.8&WIDTH=1200&HEIGHT=800&FORMAT=image%2Fpng&TIME=2023-01-01",
+      "key": "nightlights_prd_png_source",
+      "signing": null,
+      "source": "nightlights",
+      "title": null,
+      "tool": "get_nightlights"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          -122.397,
+          37.605,
+          -122.355,
+          37.632
+        ],
+        "datetime_range": "2018-01-01/2024-12-31",
+        "max_cloud_cover": 30.0,
+        "max_items": 3,
+        "source": "naip"
+      },
+      "error": "APIError: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>\n<html xmlns='http://www.w3.org/1999/xhtml'>\n\n<head>\n    <meta content='text/html; charset=utf-8' http-equiv='content-type' />\n    <style type='text/css'>\n        body {\n            font-family: Arial;\n            margin-left: 40px;\n        }\n\n        img {\n            border: 0 none;\n        }\n\n        #content {\n            margin-left: auto;\n            margin-right: auto\n        }\n\n        #message h1 {\n            font-size: 24px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message h2 {\n            font-size: 20px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message p {\n            font-size: 16px;\n            color: #000000;\n            margin: 8px 0px 0px 0px\n        }\n\n        #message hr {\n            margin: 15px 0px\n        }\n\n        #errorref {\n            font-size: 11px;\n            color: #737373;\n            margin-top: 41px\n        }\n    </style>\n    <title>Service unavailable</title>\n</head>\n\n<body>\n    <div id='content'>\n        <div id='message'>\n            <h1>504</h1>\n<h2><span>The service behind this page isn't responding to Azure Front Door.</span>\n</h2>\n<hr />\n<p>Gateway Timeout</p>\n<p>Azure Front Door cannot connect to the origin server at this time. <br> The origin might be overloaded, misconfigured or under maintenance now. Please contact the site owner for assistance.</p>\n<br />\n<a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/troubleshoot-issues#503-or-504-response-from-azure-front-door-after-a-few-seconds\" target=\"blank\">Azure Documentation</a>\n<br />\n        </div>\n        <div id='errorref'>\n            <span>Error Info:</span><span>OriginTimeout</span><br />\n<span>x-azure-ref ID:</span><span>20260725T192105Z-er196bfc4cfgw444hC1PHLpt2c00000001mg00000000syrz            </span>\n        </div>\n    </div>\n</body>\n</html>\n",
+      "key": "resolution_compare_naip",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          -122.397,
+          37.605,
+          -122.355,
+          37.632
+        ],
+        "datetime_range": "2022-06-01/2022-09-30",
+        "max_cloud_cover": 10.0,
+        "max_items": 3,
+        "source": "sentinel-2"
+      },
+      "collection": "sentinel-2-l2a",
+      "count": 3,
+      "endpoint": "https://earth-search.aws.element84.com/v1/",
+      "items": [
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/9/S2B_10SEG_20220906_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/9/S2B_10SEG_20220906_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/9/S2B_10SEG_20220906_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/9/S2B_10SEG_20220906_0_L2A/B04.tif"
+          },
+          "cloud_cover": 0.01,
+          "datetime": "2022-09-06 19:04:11.383000+00:00",
+          "gsd_m": 10,
+          "id": "S2B_10SEG_20220906_0_L2A"
+        },
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/8/S2A_10SEG_20220812_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/8/S2A_10SEG_20220812_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/8/S2A_10SEG_20220812_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/8/S2A_10SEG_20220812_0_L2A/B04.tif"
+          },
+          "cloud_cover": 0.19,
+          "datetime": "2022-08-12 19:04:21.856000+00:00",
+          "gsd_m": 10,
+          "id": "S2A_10SEG_20220812_0_L2A"
+        },
+        {
+          "assets": {
+            "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/6/S2A_10SEG_20220613_0_L2A/B02.tif",
+            "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/6/S2A_10SEG_20220613_0_L2A/B03.tif",
+            "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/6/S2A_10SEG_20220613_0_L2A/B08.tif",
+            "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2022/6/S2A_10SEG_20220613_0_L2A/B04.tif"
+          },
+          "cloud_cover": 0.39,
+          "datetime": "2022-06-13 19:04:19.964000+00:00",
+          "gsd_m": 10,
+          "id": "S2A_10SEG_20220613_0_L2A"
+        }
+      ],
+      "key": "resolution_compare_sentinel2",
+      "signing": "n/a",
+      "source": "sentinel-2",
+      "title": "Sentinel-2 L2A (optical, 10 m)",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          -122.397,
+          37.605,
+          -122.355,
+          37.632
+        ],
+        "datetime_range": "2022-06-01/2022-09-30",
+        "max_cloud_cover": 10.0,
+        "max_items": 3,
+        "source": "landsat"
+      },
+      "error": "APIError: The request exceeded the maximum allowed time, please try again. If the issue persists, please contact planetarycomputer@microsoft.com.\n\n",
+      "key": "resolution_compare_landsat",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          110.1,
+          19.9,
+          110.55,
+          20.12
+        ],
+        "datetime_range": "2023-12-28/2023-12-28",
+        "max_cloud_cover": 30.0,
+        "max_items": 6,
+        "source": "sentinel-1"
+      },
+      "collection": "sentinel-1-grd",
+      "count": 2,
+      "endpoint": "https://earth-search.aws.element84.com/v1/",
+      "items": [
+        {
+          "assets": {
+            "vh": "s3://sentinel-s1-l1c/GRD/2023/12/28/IW/DV/S1A_IW_GRDH_1SDV_20231228T104959_20231228T105024_051854_0643A5_2C54/measurement/iw-vh.tiff",
+            "vv": "s3://sentinel-s1-l1c/GRD/2023/12/28/IW/DV/S1A_IW_GRDH_1SDV_20231228T104959_20231228T105024_051854_0643A5_2C54/measurement/iw-vv.tiff"
+          },
+          "cloud_cover": null,
+          "datetime": "2023-12-28 10:50:12.359691+00:00",
+          "gsd_m": 10,
+          "id": "S1A_IW_GRDH_1SDV_20231228T104959_20231228T105024_051854_0643A5"
+        },
+        {
+          "assets": {
+            "vh": "s3://sentinel-s1-l1c/GRD/2023/12/28/IW/DV/S1A_IW_GRDH_1SDV_20231228T104930_20231228T104959_051854_0643A5_81C8/measurement/iw-vh.tiff",
+            "vv": "s3://sentinel-s1-l1c/GRD/2023/12/28/IW/DV/S1A_IW_GRDH_1SDV_20231228T104930_20231228T104959_051854_0643A5_81C8/measurement/iw-vv.tiff"
+          },
+          "cloud_cover": null,
+          "datetime": "2023-12-28 10:49:45.354556+00:00",
+          "gsd_m": 10,
+          "id": "S1A_IW_GRDH_1SDV_20231228T104930_20231228T104959_051854_0643A5"
+        }
+      ],
+      "key": "sar_source_search",
+      "signing": "n/a",
+      "source": "sentinel-1",
+      "title": "Sentinel-1 GRD (SAR, all-weather, 10 m)",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          112,
+          32,
+          120,
+          40
+        ],
+        "datetime_range": "2023-07-01/2023-08-31",
+        "max_cloud_cover": 30.0,
+        "max_items": 5,
+        "source": "thermal-lst"
+      },
+      "error": "APIError: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>\n<html xmlns='http://www.w3.org/1999/xhtml'>\n\n<head>\n    <meta content='text/html; charset=utf-8' http-equiv='content-type' />\n    <style type='text/css'>\n        body {\n            font-family: Arial;\n            margin-left: 40px;\n        }\n\n        img {\n            border: 0 none;\n        }\n\n        #content {\n            margin-left: auto;\n            margin-right: auto\n        }\n\n        #message h1 {\n            font-size: 24px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message h2 {\n            font-size: 20px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message p {\n            font-size: 16px;\n            color: #000000;\n            margin: 8px 0px 0px 0px\n        }\n\n        #message hr {\n            margin: 15px 0px\n        }\n\n        #errorref {\n            font-size: 11px;\n            color: #737373;\n            margin-top: 41px\n        }\n    </style>\n    <title>Service unavailable</title>\n</head>\n\n<body>\n    <div id='content'>\n        <div id='message'>\n            <h1>504</h1>\n<h2><span>The service behind this page isn't responding to Azure Front Door.</span>\n</h2>\n<hr />\n<p>Gateway Timeout</p>\n<p>Azure Front Door cannot connect to the origin server at this time. <br> The origin might be overloaded, misconfigured or under maintenance now. Please contact the site owner for assistance.</p>\n<br />\n<a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/troubleshoot-issues#503-or-504-response-from-azure-front-door-after-a-few-seconds\" target=\"blank\">Azure Documentation</a>\n<br />\n        </div>\n        <div id='errorref'>\n            <span>Error Info:</span><span>OriginTimeout</span><br />\n<span>x-azure-ref ID:</span><span>20260725T192210Z-er17db677dbh7xqjhC1BN14tx400000007z0000000007k85            </span>\n        </div>\n    </div>\n</body>\n</html>\n",
+      "key": "thermal_lst_source_search",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          -98,
+          20,
+          -80,
+          32
+        ],
+        "datetime_range": "2023-08-29/2023-08-31",
+        "max_cloud_cover": 30.0,
+        "max_items": 5,
+        "source": "weather-goes"
+      },
+      "error": "APIError: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>\n<html xmlns='http://www.w3.org/1999/xhtml'>\n\n<head>\n    <meta content='text/html; charset=utf-8' http-equiv='content-type' />\n    <style type='text/css'>\n        body {\n            font-family: Arial;\n            margin-left: 40px;\n        }\n\n        img {\n            border: 0 none;\n        }\n\n        #content {\n            margin-left: auto;\n            margin-right: auto\n        }\n\n        #message h1 {\n            font-size: 24px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message h2 {\n            font-size: 20px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message p {\n            font-size: 16px;\n            color: #000000;\n            margin: 8px 0px 0px 0px\n        }\n\n        #message hr {\n            margin: 15px 0px\n        }\n\n        #errorref {\n            font-size: 11px;\n            color: #737373;\n            margin-top: 41px\n        }\n    </style>\n    <title>Service unavailable</title>\n</head>\n\n<body>\n    <div id='content'>\n        <div id='message'>\n            <h1>504</h1>\n<h2><span>The service behind this page isn't responding to Azure Front Door.</span>\n</h2>\n<hr />\n<p>Gateway Timeout</p>\n<p>Azure Front Door cannot connect to the origin server at this time. <br> The origin might be overloaded, misconfigured or under maintenance now. Please contact the site owner for assistance.</p>\n<br />\n<a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/troubleshoot-issues#503-or-504-response-from-azure-front-door-after-a-few-seconds\" target=\"blank\">Azure Documentation</a>\n<br />\n        </div>\n        <div id='errorref'>\n            <span>Error Info:</span><span>OriginTimeout</span><br />\n<span>x-azure-ref ID:</span><span>20260725T192242Z-er17db677dbpz6tjhC1BN1d3mn00000002qg000000000a6m            </span>\n        </div>\n    </div>\n</body>\n</html>\n",
+      "key": "weather_goes_source_search",
+      "tool": "search_catalog"
+    },
+    {
+      "arguments": {
+        "bbox": [
+          118,
+          18,
+          145,
+          40
+        ],
+        "datetime_range": "2023-08-01/2023-08-05",
+        "max_cloud_cover": 30.0,
+        "max_items": 5,
+        "source": "sst"
+      },
+      "error": "APIError: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>\n<html xmlns='http://www.w3.org/1999/xhtml'>\n\n<head>\n    <meta content='text/html; charset=utf-8' http-equiv='content-type' />\n    <style type='text/css'>\n        body {\n            font-family: Arial;\n            margin-left: 40px;\n        }\n\n        img {\n            border: 0 none;\n        }\n\n        #content {\n            margin-left: auto;\n            margin-right: auto\n        }\n\n        #message h1 {\n            font-size: 24px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message h2 {\n            font-size: 20px;\n            font-weight: normal;\n            color: #000000;\n            margin: 34px 0px 0px 0px\n        }\n\n        #message p {\n            font-size: 16px;\n            color: #000000;\n            margin: 8px 0px 0px 0px\n        }\n\n        #message hr {\n            margin: 15px 0px\n        }\n\n        #errorref {\n            font-size: 11px;\n            color: #737373;\n            margin-top: 41px\n        }\n    </style>\n    <title>Service unavailable</title>\n</head>\n\n<body>\n    <div id='content'>\n        <div id='message'>\n            <h1>504</h1>\n<h2><span>The service behind this page isn't responding to Azure Front Door.</span>\n</h2>\n<hr />\n<p>Gateway Timeout</p>\n<p>Azure Front Door cannot connect to the origin server at this time. <br> The origin might be overloaded, misconfigured or under maintenance now. Please contact the site owner for assistance.</p>\n<br />\n<a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/troubleshoot-issues#503-or-504-response-from-azure-front-door-after-a-few-seconds\" target=\"blank\">Azure Documentation</a>\n<br />\n        </div>\n        <div id='errorref'>\n            <span>Error Info:</span><span>OriginTimeout</span><br />\n<span>x-azure-ref ID:</span><span>20260725T192315Z-er17db677dbpz6tjhC1BN1d3mn000000025000000000n13z            </span>\n        </div>\n    </div>\n</body>\n</html>\n",
+      "key": "sst_source_search",
+      "tool": "search_catalog"
+    }
+  ],
+  "purpose": "Source URLs and search results used before rendering media gallery outputs.",
+  "script_internal_open_data_queries": {
+    "physical_layers_nasa_power": {
+      "note": "Used by examples/physical_layers.py.",
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/regional?parameters=ALLSKY_SFC_SW_DWN&community=RE&longitude-min=106.0&longitude-max=116.0&latitude-min=16.0&latitude-max=26.0&format=JSON"
+    },
+    "terrain_3d_copernicus_dem": {
+      "bbox": [
+        114.1,
+        22.19,
+        114.3,
+        22.35
+      ],
+      "collection": "cop-dem-glo-30",
+      "endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+      "note": "Used by examples/terrain_3d.py and examples/terrain_3d_views.py."
+    }
+  }
+}
